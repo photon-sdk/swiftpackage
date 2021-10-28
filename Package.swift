@@ -25,10 +25,10 @@ let package = Package(
             name: "BTCPhoton-SwiftPackage",
             dependencies: [],
             exclude: ["Info.plist"]),
-        .testTarget(
-            name: "BTCPhoton-SwiftPackageTests",
-            dependencies: ["BTCPhoton-SwiftPackage"],
-            exclude: ["Info.plist"]),
+        //.testTarget(
+        //   name: "BTCPhoton-SwiftPackageTests",
+        //   dependencies: ["BTCPhoton-SwiftPackage"],
+        //   exclude: ["Info.plist"]),
         
     ]
 )

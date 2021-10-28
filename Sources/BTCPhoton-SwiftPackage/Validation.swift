@@ -77,7 +77,7 @@ public enum Verify {
          */
         // is this a valid pin?
         let newlines = CharacterSet.newlines
-        let disallowed = newlines.inverted
+        let disallowed = newlines
         let range_of_newlines = pin.rangeOfCharacter(from: disallowed)
         if range_of_newlines == nil {
             let pinRegEx = "^.{4,256}$"

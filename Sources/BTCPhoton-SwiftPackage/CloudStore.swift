@@ -18,9 +18,9 @@ public enum CloudstoreError: Error {
 }
 
 public enum RecordKey: String {
-    case phone = "1_photon_phone"
-    case email = "1_photon_email"
-    case keyId = "1_photon_key_id"
+    case phone = "photon_phone_1"
+    case email = "photon_email_1"
+    case keyId = "photon_key_id_1"
     case shortKeyID
     case ciphertext
     case timeValue
